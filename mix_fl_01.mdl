@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.2"
+    ComputedModelVersion    "1.4"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -40,7 +40,7 @@ Model {
       $ObjectID		      3
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [314.0, 310.0, 1088.0, 892.0]
+      Location		      [-8.0, -8.0, 1936.0, 1096.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		4
@@ -64,7 +64,7 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[1038.0, 714.0]
+	Extents			[1886.0, 918.0]
 	ZoomFactor		[1.25]
 	Offset			[-83.280958222206891, 156.39881150949606]
       }
@@ -76,9 +76,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "my88899"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Tue Dec 13 21:18:22 2016"
-  RTWModifiedTimeStamp	  403564687
-  ModelVersionFormat	  "1.%<AutoIncrement:2>"
+  LastModifiedDate	  "Wed Dec 14 18:54:42 2016"
+  RTWModifiedTimeStamp	  403642469
+  ModelVersionFormat	  "1.%<AutoIncrement:4>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -123,7 +123,7 @@ Model {
     $ObjectID		    7
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
     model_		    "mix_fl_01"
-    overrideMode_	    [0U]
+    overrideMode_	    [0.0]
     Array {
       Type		      "Cell"
       Dimension		      1
@@ -1018,7 +1018,7 @@ Model {
   }
   System {
     Name		    "mix_fl_01"
-    Location		    [314, 310, 1402, 1202]
+    Location		    [-8, -8, 1928, 1088]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -3965,39 +3965,39 @@ Model {
       ZOrder		      273
       ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
       "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
-      "ources','WiredSimulink',true),extmgr.Configuration('Visuals','Time Domain',true,'SerializedDisplays',{struct('Mi"
-      "nYLimReal','-6.25','MaxYLimReal','6.25','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','6.25','LegendVisibi"
+      "ources','WiredSimulink',true,'DataLogging',true,'DataLoggingSaveFormat','StructureWithTime'),extmgr.Configuratio"
+      "n('Visuals','Time Domain',true,'SerializedDisplays',{struct('MinYLimReal','-6.25','MaxYLimReal','6.25','YLabelRe"
+      "al','','MinYLimMag','0.00000','MaxYLimMag','6.25','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPha"
+      "se',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrde"
+      "r',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.3921568"
+      "62745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0"
+      "745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames'"
+      ",{{}},'NumLines',1,'LineNames',{{'Continuous-Time VCO14'}},'ShowContent',true,'Placement',1),struct('MinYLimReal"
+      "','-136.09405','MaxYLimReal','131.33705','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','87.62271','LegendV"
+      "isibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509"
+      "803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.6235294117"
+      "64706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.7176470588"
+      "23529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>"
+      "','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Analog Filter Design'}},"
+      "'ShowContent',true,'Placement',2),struct('MinYLimReal','-132.99289','MaxYLimReal','133.19948','YLabelReal','','M"
+      "inYLimMag','0.00000','MaxYLimMag','87.62271','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',f"
+      "alse,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1"
+      " 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745"
+      "098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.074509"
+      "8039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}}"
+      ",'NumLines',1,'LineNames',{{'Analog Filter Design2'}},'ShowContent',true,'Placement',3),struct('MinYLimReal','-1"
+      "36.29321','MaxYLimReal','131.72394','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','87.62271','LegendVisibi"
       "lity','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.68627450980392"
       "2 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706"
       " 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529"
       " 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','Li"
-      "nePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Continuous-Time VCO14'}},'Sho"
-      "wContent',true,'Placement',1),struct('MinYLimReal','-67.40067','MaxYLimReal','132.51566','YLabelReal','','MinYLi"
-      "mMag','0.00000','MaxYLimMag','87.62271','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,"
-      "'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0."
-      "0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0"
-      ".831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.07450980392"
-      "15686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'Num"
-      "Lines',1,'LineNames',{{'Analog Filter Design'}},'ShowContent',true,'Placement',2),struct('MinYLimReal','-67.4006"
-      "7','MaxYLimReal','132.51566','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','87.62271','LegendVisibility','"
-      "Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686"
-      "274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0."
-      "411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.2745"
-      "09803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePrope"
-      "rtiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Analog Filter Design2'}},'ShowConten"
-      "t',true,'Placement',3),struct('MinYLimReal','-67.40067','MaxYLimReal','132.51566','YLabelReal','','MinYLimMag','"
-      "0.00000','MaxYLimMag','87.62271','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesCo"
-      "lor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666"
-      "666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372"
-      "549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0"
-      ".650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',"
-      "1,'LineNames',{{'Analog Filter Design4'}},'ShowContent',true,'Placement',4)},'DisplayPropertyDefaults',struct('Y"
-      "LabelReal','','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesT"
-      "ickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[0.0745098039215686 0.62352941176"
-      "4706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.39215"
-      "6862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863]),"
-      "'DisplayLayoutDimensions',[4 1]),extmgr.Configuration('Tools','Plot Navigation',true),extmgr.Configuration('Tool"
-      "s','Measurements',true,'Version','2015b')),'Version','2015b','Position',[168 130 1317 692])"
+      "nePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Analog Filter Design4'}},'Sho"
+      "wContent',true,'Placement',4)},'DisplayPropertyDefaults',struct('YLabelReal','','AxesColor',[0 0 0],'AxesTickCol"
+      "or',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1"
+      ";1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.39215686274"
+      "5098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863]),'Displ"
+      "ayLayoutDimensions',[4 1]),extmgr.Configuration('Tools','Plot Navigation',true),extmgr.Configuration('Tools','Me"
+      "asurements',true,'Version','2015b')),'Version','2015b','Position',[168 130 1317 692],'VisibleAtModelOpen','on')"
       NumInputPorts	      "4"
     }
     Block {
@@ -4614,10 +4614,6 @@ Model {
       DstPort		      1
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      138
       SrcBlock		      "Product1"
       SrcPort		      1
@@ -4625,10 +4621,6 @@ Model {
       DstPort		      1
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      139
       SrcBlock		      "Transport\nDelay"
       SrcPort		      1
@@ -4636,10 +4628,6 @@ Model {
       DstPort		      1
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      140
       SrcBlock		      "Analog\nFilter Design1"
       SrcPort		      1
@@ -4647,10 +4635,6 @@ Model {
       DstPort		      2
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      262
       SrcBlock		      "AWGN\nChannel"
       SrcPort		      1
@@ -4658,10 +4642,6 @@ Model {
       DstPort		      1
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      142
       SrcBlock		      "Transport\nDelay1"
       SrcPort		      1
@@ -4669,10 +4649,6 @@ Model {
       DstPort		      1
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      143
       SrcBlock		      "Transport\nDelay2"
       SrcPort		      1
@@ -4680,10 +4656,6 @@ Model {
       DstPort		      1
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      268
       SrcBlock		      "Analog\nFilter Design2"
       SrcPort		      1
@@ -4691,10 +4663,6 @@ Model {
       DstPort		      3
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      145
       SrcBlock		      "Product2"
       SrcPort		      1
@@ -4702,10 +4670,6 @@ Model {
       DstPort		      1
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      146
       SrcBlock		      "Analog\nFilter Design3"
       SrcPort		      1
@@ -4713,10 +4677,6 @@ Model {
       DstPort		      2
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      147
       SrcBlock		      "AWGN\nChannel1"
       SrcPort		      1
@@ -4724,10 +4684,6 @@ Model {
       DstPort		      1
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      187
       SrcBlock		      "Continuous-Time\nVCO14"
       SrcPort		      1
@@ -4764,10 +4720,6 @@ Model {
       }
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      186
       SrcBlock		      "Antenna Source 3"
       SrcPort		      1
@@ -4775,10 +4727,6 @@ Model {
       DstPort		      1
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      185
       SrcBlock		      "Antenna Source 2"
       SrcPort		      1
@@ -4786,10 +4734,6 @@ Model {
       DstPort		      1
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      183
       SrcBlock		      "Antenna Source 1"
       SrcPort		      1
@@ -4797,10 +4741,6 @@ Model {
       DstPort		      1
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      266
       SrcBlock		      "Analog\nFilter Design4"
       SrcPort		      1
@@ -4809,10 +4749,6 @@ Model {
       DstPort		      4
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      157
       SrcBlock		      "Product3"
       SrcPort		      1
@@ -4820,10 +4756,6 @@ Model {
       DstPort		      1
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      158
       SrcBlock		      "Analog\nFilter Design5"
       SrcPort		      1
@@ -4831,10 +4763,6 @@ Model {
       DstPort		      2
     }
     Line {
-      FontName		      "Helvetica"
-      FontSize		      9
-      FontWeight	      "normal"
-      FontAngle		      "normal"
       ZOrder		      159
       SrcBlock		      "AWGN\nChannel2"
       SrcPort		      1
